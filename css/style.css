@@ -1,14 +1,17 @@
 * {
     font-family: sans-serif;
+    margin: 0 auto;
+
 }
 
 fieldset {
-    margin: 100px;
+    margin: 10%;
     text-align: center;
+    padding: 1%;
 }
 
 footer {
-    margin: auto;
+    margin: 10% auto;
     text-align: center;
     border: 1px solid black;
     padding: 1%;
@@ -102,3 +105,5 @@ input[type=checkbox] {
   .nobel, #nobel {
     cursor: pointer;
   }
+
+  
