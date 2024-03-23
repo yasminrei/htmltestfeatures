@@ -62,7 +62,6 @@ input[type=checkbox] {
     transition-duration: 1s;
     transition-property: background, border-radius, color;
     transition-delay: 1s;
-    
   }
 
   #submit:hover {
@@ -77,10 +76,10 @@ input[type=checkbox] {
     border: 0;
     background: #0087cc;
     border-radius: 4px;
-    box-shadow: 0 5px 0 #006599;
+    box-shadow: 0 8px 0 #006599;
     color: #fff;
     cursor: pointer;
-    font: inherit
+    font: inherit;
     padding: 15px 10px;
     transition: all .1s linear;
     margin: 15px auto;
