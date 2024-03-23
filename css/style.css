@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+}
+
+fieldset {
+    margin: 100px;
+    text-align: center;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1%;
+    width: 70%
+}
+
+legend {
+    font-size: 48px;
+}
+
+
+label {
+    font-size: 24px;
+}
+
+
+#submit {
+    margin: 1em;
+}
+
+input[type=checkbox] {
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+    margin: 10px;
+    display: inline-block;
+}
+
+.options {
+    border: 0px solid black;
+    padding: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 7em;
+    text-align: left;
+}
