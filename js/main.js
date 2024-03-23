@@ -1,10 +1,12 @@
 $(document).ready(function(event){ 
     // jQuery code 
-    $("span").css("color", "red");
     $("#you").prop("disabled", true);
     $("#submit").click(function(){
         alert("You have submitted your final answer.");
-        $("fieldset").remove();
+        $("fieldset").fadeOut("slow", function(event) {
+            $(this).remove();
+        });
         $("footer").addClass("center-screen");
+        $("span").css("color", "red");
       });
   });
