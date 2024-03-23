@@ -4,5 +4,7 @@ $(document).ready(function(event){
     $("#you").prop("disabled", true);
     $("#submit").click(function(){
         alert("You have submitted your final answer.");
+        $("fieldset").remove();
+        $("footer").addClass("center-screen");
       });
   });
